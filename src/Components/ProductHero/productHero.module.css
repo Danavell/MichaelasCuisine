@@ -1,0 +1,34 @@
+.productHero {
+  position: relative;
+}
+
+.productHero img {
+  height: 65vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.productHero .description {
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  width: 500px;
+  height: 40%;
+}
+
+.productHero .description h1 {
+  color: black;
+  font-size: 50px;
+}
+
+@media (max-width: 400px) {
+  .productHero img {
+    height: 35vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .description {
+    display: none;
+  }
+}

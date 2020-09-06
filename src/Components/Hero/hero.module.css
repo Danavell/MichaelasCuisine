@@ -1,0 +1,11 @@
+/* HERO */
+
+@media (max-device-width: 1024px) {
+  .hero {
+    background: url('../../images/pexels-lovefood-art-1437621.jpg') no-repeat
+      center center/cover;
+    height: 100vh;
+    width: 100%;
+    height: 70vh;
+  }
+}

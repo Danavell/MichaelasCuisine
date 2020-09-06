@@ -1,0 +1,46 @@
+.container {
+  text-align: left;
+  padding: 7px;
+  width: 90%;
+  height: 32vh;
+  font-size: 70%;
+  margin: 10px auto;
+  background-color: white;
+}
+
+.container img {
+  height: 65%;
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+
+.container h2 {
+  color: rgb(90, 68, 68);
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+
+.container h3 {
+  color: rgb(90, 68, 68);
+  border-bottom: rgb(82, 69, 69) solid 1px;
+  padding-bottom: 15px;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 320px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .container {
+    width: 400px;
+    height: 300px;
+  }
+}

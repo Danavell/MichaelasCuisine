@@ -1,0 +1,11 @@
+.description {
+  padding: 0px 10px;
+  text-align: left;
+  height: 6vh;
+  color: #333;
+}
+
+h4 {
+  padding-bottom: 5px;
+  border-bottom: solid 1px #333;
+}

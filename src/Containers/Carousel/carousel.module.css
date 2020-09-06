@@ -1,0 +1,16 @@
+.flexItems {
+  width: 95%;
+  padding-top: 55px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexItems {
+  font-size: 90%;
+}
+
+.buttons i {
+  color: rgb(93, 93, 148);
+  padding-left: 50px;
+}
