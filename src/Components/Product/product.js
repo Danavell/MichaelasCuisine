@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { isMobile } from 'react-device-detect';
 import { useSelector } from 'react-redux'
 
@@ -8,10 +8,6 @@ import Hero from '../ProductHero/productHero'
 import styles from './product.module.css'
 
 const Product = (props) => {
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
 
     let id = parseInt(props.match.params.productId)
 
@@ -50,7 +46,6 @@ const Product = (props) => {
                 title={'You may also like'}
                 data={combined}
             />
-            {useEffect()}
         </div >
     )
 }
