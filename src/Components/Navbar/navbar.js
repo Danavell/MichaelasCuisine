@@ -12,8 +12,8 @@ const navbar = (props) => {
                     <Link to='/'>Mihaela's Kitchen </Link>
                 </h1>
                 <div className={styles.social}>
-                    <a href="#"><i className="fab fa-facebook fa-2x"></i></a>
-                    <a href="#"><i className="fab fa-instagram fa-2x"></i></a>
+                    <i className="fab fa-facebook fa-2x"></i>
+                    <i className="fab fa-instagram fa-2x"></i>
                 </div>
             </div>
             <nav>
