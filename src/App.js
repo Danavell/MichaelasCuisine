@@ -13,6 +13,11 @@ import Product from './Components/Product/product'
 import { useSelector } from 'react-redux'
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const desserts = useSelector(state => state.desserts)
   const cheeses = useSelector(state => state.cheeses)
 
